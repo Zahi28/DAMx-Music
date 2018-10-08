@@ -1,26 +1,26 @@
-#Ê¹ÓÃËµÃ÷
-##ÏÂÔØ
-¿ÉÑ¡Ò»¡¢githubÉÏ[download zip](https://github.com/Zahi28/DAMx-Music)
+# ä½¿ç”¨è¯´æ˜Ž
+## ä¸‹è½½
+å¯é€‰ä¸€ã€githubä¸Š[download zip](https://github.com/Zahi28/DAMx-Music)
 
-¿ÉÑ¡¶þ¡¢´Ó°Ù¶ÈÔÆÅÌÁ´½Ó[ÏÂÔØ](https://pan.baidu.com/s/1Z2Jd4N9nLB1UyW4NXfkjag)
+å¯é€‰äºŒã€ä»Žç™¾åº¦äº‘ç›˜é“¾æŽ¥[ä¸‹è½½](https://pan.baidu.com/s/1Z2Jd4N9nLB1UyW4NXfkjag)
 
-##×¼±¸
-È·±£µçÄÔÉÏ°²×°ÓÐpython¼°flask
+## å‡†å¤‡
+ç¡®ä¿ç”µè„‘ä¸Šå®‰è£…æœ‰pythonåŠflask
 
-Èç¹ûÃ»ÓÐ¿ÉÒÔ´Ó´Ë´¦[ÏÂÔØpython](https://www.python.org/downloads/)£¬½¨ÒéÑ¡Ôñ3.6°æ±¾»ò2.7°æ±¾
+å¦‚æžœæ²¡æœ‰å¯ä»¥ä»Žæ­¤å¤„[ä¸‹è½½python](https://www.python.org/downloads/)ï¼Œå»ºè®®é€‰æ‹©3.6ç‰ˆæœ¬æˆ–2.7ç‰ˆæœ¬
 
-°²×°ºÃpythonºóÃüÁîÐÐÖ´ÐÐ
+å®‰è£…å¥½pythonåŽå‘½ä»¤è¡Œæ‰§è¡Œ
 
 >pip install flask
 
-À´°²×°flaskÏà¹ØÀ©Õ¹°ü
+æ¥å®‰è£…flaskç›¸å…³æ‰©å±•åŒ…
 
-##Ê¹ÓÃ
-ÔÚÃüÁîÐÐ×ªµ½´ËÎÄ¼þ¼ÐÏÂ£¬Ö´ÐÐ
+## ä½¿ç”¨
+åœ¨å‘½ä»¤è¡Œè½¬åˆ°æ­¤æ–‡ä»¶å¤¹ä¸‹ï¼Œæ‰§è¡Œ
 
 >python DAMx_Music.py
 
-ÔÚä¯ÀÀÆ÷µØÖ·À¸ÊäÈëÃüÁîÐÐÖÐÏÔÊ¾µÄip¼°¶Ë¿Ú¼´¿Éä¯ÀÀ£¬ÊÔÌý»òÕßÏÂÔØÒôÀÖ
+åœ¨æµè§ˆå™¨åœ°å€æ è¾“å…¥å‘½ä»¤è¡Œä¸­æ˜¾ç¤ºçš„ipåŠç«¯å£å³å¯æµè§ˆï¼Œè¯•å¬æˆ–è€…ä¸‹è½½éŸ³ä¹
 
-##ÎÊÌâ·´À¡
+## é—®é¢˜åé¦ˆ
 <xu_zixu@outlook.com>
