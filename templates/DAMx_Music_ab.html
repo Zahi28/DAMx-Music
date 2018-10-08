@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>DAMx Music_外国音乐</title>
+    <meta name="author" content="Zahi">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+    <link rel="icon" href="../static/img/icon.png" type="image/png">
+</head>
+<body class="subpage">
+    <!-- Header -->
+        <header id="header">
+            <div class="logo"><a href="home">DAMx <span>Music</span></a></div>
+            <a href="#menu">Menu</a>
+        </header>
+    <!-- Nav -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="home">Home</a></li>
+                <li><a href="chinese">中文音乐</a></li>
+                <li><a href="foreign">外国音乐</a></li>
+            </ul>
+        </nav>
+
+
+    <!-- banner -->
+        <section id="One" class="wrapper style3">
+            <div class="inner">
+                <header class="align-center">
+                    <p>DAMx Music</p>
+                    <h2>外国音乐</h2>
+                </header>
+            </div>
+        </section>
+
+    <!-- main -->
+        <div id="main">
+            <div class="inner">
+
+                <!-- Boxes -->
+                <div class="thumbnails">
+
+                    <script>
+
+                        /**
+                         * @return {string}
+                         */
+                        function PrefixInteger(num, n) {
+                            return (Array(n).join(0) + num).slice(-n);
+                        }
+                        let num = 50;
+                        for (let i = 1; i <= num; i++) {
+                            let img_path, muc_path, txt_path, singer, muc_name;
+                            img_path = "../static/Foreign music/1" + PrefixInteger(i, 2) + ".png";
+                            muc_path = "../static/Foreign music/1" + PrefixInteger(i, 2) + ".mp3";
+                            txt_path = "../static/Foreign music/1" + PrefixInteger(i, 2) + ".txt";
+
+                            singer = "歌手";
+                            muc_name = "歌曲";
+
+                            //写入html
+                            document.write(
+                                "                    <div class=\"box\" id=\"box"+PrefixInteger(i, 2)+"\">\n" +
+                                "                        <img src=\"" + img_path + "\" class=\"image fit\" alt=\"\" />\n" +
+                                "                        <div class=\"inner\">\n" +
+                                "                            <a href=\"" + muc_path + "\" class=\"button fit\">试听</a>\n" +
+                                "                            <a href=\"" + muc_path + "\" class=\"button fit\" download=\"\" data-poptrox=\"youtube,800x400\">下载</a>\n" +
+                                "                        </div>\n" +
+                                "                    </div>");
+// +
+//                                 "                            <h3 id='music"+i+"'>" + muc_name + "</h3>\n" +
+//                                 "                            <h4 id='singer"+i+"'>" + singer + "</h4>\n" +
+                        }
+
+                    </script>
+
+                </div>
+
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="copyright">
+            &copy; DAMx Music. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../static/assets/js/jquery.min.js"></script>
+    <script src="../static/assets/js/jquery.scrollex.min.js"></script>
+    <script src="../static/assets/js/skel.min.js"></script>
+    <script src="../static/assets/js/util.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>
