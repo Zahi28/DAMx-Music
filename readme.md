@@ -1,6 +1,6 @@
 # 使用说明
 ## 下载
-可选一、github上[download zip](https://github.com/Zahi28/DAMx-Music)
+可选一、github上[download zip](https://github.com/Zahi28/DAMx-Music/archive/master.zip)
 
 可选二、从百度云盘链接[下载](https://pan.baidu.com/s/1Z2Jd4N9nLB1UyW4NXfkjag)
 
